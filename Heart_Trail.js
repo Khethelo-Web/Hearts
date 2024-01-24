@@ -1,6 +1,6 @@
 const bodyEL = document.querySelector("body")
 
-bodyEL.addEventListener("touchmove", (event)=>{
+bodyEL.addEventListener("mousemove", (event)=>{
     const spanEl = document.createElement("span")
     const xPos = event.offsetX
     const yPos = event.offsetY
